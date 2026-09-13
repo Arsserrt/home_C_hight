@@ -233,7 +233,7 @@ snake_t* snake = (snake_t*)malloc(sizeof(snake_t));
     raw();                // Отключаем line buffering
     noecho();            // Отключаем echo() режим при вызове getch
     curs_set(FALSE);    //Отключаем курсор
-    mvprintw(0, 0,"Use arrows for control. Press 'F10' for EXIT");
+    mvprintw(0, 0," Use arrows for control. Press 'F10' for EXIT");
     timeout(0);    //Отключаем таймаут после нажатия клавиши в цикле
     int key_pressed=0;
     while( key_pressed != STOP_GAME )
