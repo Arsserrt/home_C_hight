@@ -1,0 +1,1 @@
+gcc snake2.c -o snake2 -lncurses -DNCURSES_STATIC
